@@ -1,0 +1,24 @@
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (319 bytes):
+{"id":"DV-2017","sequence":1,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.28,"H":34.11,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.85,"V":12.27,"W":10.68,"tUV":30,"tVIS":33,"tIR":33,"temperature":29.74,"humidity":47.15,"pressure":843.09,"gas":75.96}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (320 bytes):
+{"id":"DV-2017","sequence":2,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.28,"H":34.11,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.01,"V":12.27,"W":10.68,"tUV":31,"tVIS":33,"tIR":33,"temperature":29.75,"humidity":47.01,"pressure":843.08,"gas":113.37}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (320 bytes):
+{"id":"DV-2017","sequence":3,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.28,"H":34.11,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.01,"V":12.27,"W":10.68,"tUV":31,"tVIS":33,"tIR":33,"temperature":29.75,"humidity":46.87,"pressure":843.07,"gas":141.71}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (320 bytes):
+{"id":"DV-2017","sequence":4,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.77,"H":34.11,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.85,"V":12.27,"W":10.68,"tUV":31,"tVIS":33,"tIR":33,"temperature":29.76,"humidity":46.76,"pressure":843.05,"gas":160.65}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (320 bytes):
+{"id":"DV-2017","sequence":5,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.28,"H":34.11,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.85,"V":12.27,"W":10.68,"tUV":30,"tVIS":33,"tIR":33,"temperature":29.77,"humidity":46.67,"pressure":843.04,"gas":174.09}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando JSON (320 bytes):
+{"id":"DV-2017","sequence":6,"modo":"CALIBRATED","A":6.48,"B":48.75,"C":317.22,"D":0.00,"E":60.28,"F":0.00,"G":33.77,"H":34.56,"I":20.05,"J":7.84,"K":4.08,"L":4.65,"R":68.82,"S":23.00,"T":11.42,"U":10.85,"V":12.27,"W":10.68,"tUV":30,"tVIS":33,"tIR":33,"temperature":29.78,"humidity":46.61,"pressure":843.03,"gas":186.05}

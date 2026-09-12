@@ -1,0 +1,1 @@
+En total se hicieron 20 tomas de muestra (10 sin protobuff y 10 con protobuff), cada medición contiene 6 muestras y en dos diferentes situaciones, luz normal del laboratorio y oscuro (cubriendo un poco el sensor y con la luces apagadas, NO fue oscuridad total), las distancias fueron: 0.6m, 1m, 5m, 10m y 15m, todas a la vista.

@@ -1,0 +1,24 @@
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":1,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":22.73,"K":10.48,"L":9.30,"R":244.19,"S":72.00,"T":33.38,"U":29.21,"V":34.17,"W":28.48,"tUV":29.00,"tVIS":32.00,"tIR":31.00,"temperature":28.57,"humidity":51.42,"pressure":844.73,"gas":5.68}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":2,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":22.73,"K":10.48,"L":9.30,"R":244.19,"S":72.00,"T":32.50,"U":29.21,"V":34.17,"W":28.48,"tUV":29.00,"tVIS":31.00,"tIR":31.00,"temperature":28.62,"humidity":51.30,"pressure":844.69,"gas":5.68}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":3,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":22.73,"K":10.48,"L":9.30,"R":244.19,"S":72.00,"T":33.38,"U":29.21,"V":34.17,"W":28.48,"tUV":29.00,"tVIS":31.00,"tIR":31.00,"temperature":28.66,"humidity":51.14,"pressure":844.65,"gas":5.68}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":4,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":0.00,"K":10.48,"L":0.00,"R":244.19,"S":72.00,"T":33.38,"U":29.21,"V":34.17,"W":28.48,"tUV":29.00,"tVIS":31.00,"tIR":31.00,"temperature":28.70,"humidity":51.05,"pressure":844.64,"gas":6.82}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":5,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":0.00,"K":10.48,"L":9.30,"R":244.19,"S":72.00,"T":33.38,"U":29.21,"V":34.17,"W":28.48,"tUV":29.00,"tVIS":31.00,"tIR":31.00,"temperature":28.72,"humidity":50.99,"pressure":844.61,"gas":11.38}
+Comando recibido: MEDIR;CALIBRATED;16;180
+--------------------------------
+Enviando Protobuf (Vista JSON):
+{"id":"DV-2017","sequence":6,"modo":"CALIBRATED","A":14.81,"B":104.20,"C":444.68,"D":0.00,"E":133.87,"F":0.00,"G":114.81,"H":121.87,"I":66.06,"J":22.73,"K":10.48,"L":9.30,"R":244.19,"S":72.00,"T":32.50,"U":29.21,"V":34.17,"W":27.29,"tUV":29.00,"tVIS":31.00,"tIR":31.00,"temperature":28.75,"humidity":50.91,"pressure":844.61,"gas":17.55}

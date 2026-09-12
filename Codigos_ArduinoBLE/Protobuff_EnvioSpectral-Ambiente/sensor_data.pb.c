@@ -1,0 +1,37 @@
+#include "sensor_data.pb.h"
+
+/* Tabla de metadatos que indica a Nanopb cómo codificar cada campo */
+const pb_field_t SpectralMeasurement_fields[32] = {
+    {1, PB_LTYPE_STRING, offsetof(SpectralMeasurement, id), 0, 16, 0, 0},
+    {2, PB_LTYPE_VARINT, offsetof(SpectralMeasurement, sequence), 0, 4, 0, 0},
+    {3, PB_LTYPE_STRING, offsetof(SpectralMeasurement, modo), 0, 16, 0, 0},
+    {4, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_A), 0, 4, 0, 0},
+    {5, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_B), 0, 4, 0, 0},
+    {6, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_C), 0, 4, 0, 0},
+    {7, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_D), 0, 4, 0, 0},
+    {8, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_E), 0, 4, 0, 0},
+    {9, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_F), 0, 4, 0, 0},
+    {10, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_G), 0, 4, 0, 0},
+    {11, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_H), 0, 4, 0, 0},
+    {12, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_I), 0, 4, 0, 0},
+    {13, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_J), 0, 4, 0, 0},
+    {14, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_K), 0, 4, 0, 0},
+    {15, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_L), 0, 4, 0, 0},
+    {16, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_R), 0, 4, 0, 0},
+    {17, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_S), 0, 4, 0, 0},
+    {18, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_T), 0, 4, 0, 0},
+    {19, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_U), 0, 4, 0, 0},
+    {20, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_V), 0, 4, 0, 0},
+    {21, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ch_W), 0, 4, 0, 0},
+    {22, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, temp_uv), 0, 4, 0, 0},
+    {23, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, temp_vis), 0, 4, 0, 0},
+    {24, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, temp_ir), 0, 4, 0, 0},
+    {25, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ambient_temp), 0, 4, 0, 0},
+    {26, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ambient_hum), 0, 4, 0, 0},
+    {27, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ambient_pres), 0, 4, 0, 0},
+    {28, PB_LTYPE_FIXED32, offsetof(SpectralMeasurement, ambient_gas), 0, 4, 0, 0},
+    {29, PB_LTYPE_STRING, offsetof(SpectralMeasurement, experiment_id), 0, 32, 0, 0},
+    {30, PB_LTYPE_STRING, offsetof(SpectralMeasurement, protocol), 0, 32, 0, 0},
+    {31, PB_LTYPE_STRING, offsetof(SpectralMeasurement, distance_m), 0, 16, 0, 0},
+    {0, 0, 0, 0, 0, 0, 0} // Centinela final
+};

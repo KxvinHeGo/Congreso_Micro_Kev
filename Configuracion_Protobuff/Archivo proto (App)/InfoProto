@@ -1,0 +1,1 @@
+El archivo .proto no es la única configuracion realizada con Protobuff dentro de la aplicacion, el resto de archivos generados por protobuff están ubicado en diferentes ubicaciones, pero este en específico está ubicado en la siguiente direccion: CoriotConnect > app > src > main > proto

@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package com.example.coriotconnect;
+
+option java_package = "com.example.coriotconnect.proto";
+option java_multiple_files = true;
+
+message SpectralMeasurement {
+  // Metadatos básicos
+  string id = 1;
+  uint32 sequence = 2;
+  string modo = 3;
+
+  // Datos Espectrales (Canales A-W)
+  float ch_A = 4; float ch_B = 5; float ch_C = 6;
+  float ch_D = 7; float ch_E = 8; float ch_F = 9;
+  float ch_G = 10; float ch_H = 11; float ch_I = 12;
+  float ch_J = 13; float ch_K = 14; float ch_L = 15;
+  float ch_R = 16; float ch_S = 17; float ch_T = 18;
+  float ch_U = 19; float ch_V = 20; float ch_W = 21;
+
+  // Temperaturas internas AS7265X
+  float temp_uv = 22;
+  float temp_vis = 23;
+  float temp_ir = 24;
+
+  // Datos ambientales BME688
+  float ambient_temp = 25;
+  float ambient_hum = 26;
+  float ambient_pres = 27;
+  float ambient_gas = 28;
+
+  // Campos de experimento (opcionales)
+  string experiment_id = 29;
+  string protocol = 30;
+  string distance_m = 31;
+}
